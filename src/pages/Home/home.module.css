@@ -1,0 +1,38 @@
+.divFather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link {
+  color: #FFFFFF;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.divChild {
+  height: 120px;
+  width: 350px;
+}
+
+.divChild p span {
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.sair{
+  background: #612f74;
+  margin: 10px;
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sair:hover{
+  opacity: 0.9;
+}

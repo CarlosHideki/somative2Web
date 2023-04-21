@@ -1,0 +1,69 @@
+.divFather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divFather button {
+  margin-top: 10px;
+  border: none;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #612f74;
+  align-self: center;
+}
+
+.centerButton{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 165px;
+}
+
+.divChild {
+  height: 300px;
+  display: grid;
+}
+
+.divChild input {
+  border-radius: 10px;
+  height: 20px;
+
+}
+
+.divChild button {
+  background-color: black;
+  color: #FFFFFF;
+  border-radius: 30px;
+  height: 40px;
+  width: 100px;
+}
+
+.inicial {
+  background-color: #612f74;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 60px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.inicial:hover{
+  opacity: 0.9;
+}
+
+.p {
+  align-self: center;
+}
+
+.inputsRegister{
+  display: grid;
+}

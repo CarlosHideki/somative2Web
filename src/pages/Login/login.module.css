@@ -1,0 +1,64 @@
+.divFather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divFather button {
+  margin-top: 10px;
+}
+
+.divChild {
+  height: 200px;
+  display: grid;
+}
+
+.divChild input {
+  border-radius: 10px;
+  height: 20px;
+}
+
+.divChild button {
+  background-color: black;
+  color: #FFFFFF;
+  border-radius: 30px;
+  width:100px;
+  height: 40px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.inicial {
+  background-color: #612f74;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 60px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.inicial:hover{
+  opacity: 0.9;
+}
+
+.p {
+  align-self: center;
+}
+
+.centerButton{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 165px;
+}
+
+.inputsLogin{
+  display: grid;
+}

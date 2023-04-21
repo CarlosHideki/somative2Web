@@ -1,0 +1,27 @@
+.buttons {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.buttons p {
+  background: #612f74;
+  margin: 10px;
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .buttons p:hover{
+    opacity: 0.9;
+  }
+
+.p {
+  align-items: center;
+}
